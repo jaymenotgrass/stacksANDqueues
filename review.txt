@@ -1,0 +1,21 @@
+Why is a stack the right choice for undo/redo?
+    - Using a stack is the right choice for the undo/redo tool because it is important
+    to track what was added most recently. The stacking method uses the rule 
+    "First In, Last Out", and when you use the undo/redo method, you are dealing directly
+    with the items that were just used. If you visualize putting items into a bottle,
+    the first thing you put in, is the last thing that is going to come out or be changed.
+    However, lets say you put the 3rd item in, but wanted switch it out, you can easily undo
+    the 3rd item because you can access it from the top and add a new item.
+Why is a queue better suited for the help desk?
+    - Now for the help desk, a queue is a better suited method to use because you want to take
+    care of the people who were added first. This uses the "First In, First Out" path,
+    where customers who got on a phone call first will be taken care of first. A queue
+    organizes the lists by having a front and a rear, and continuously pushing customers and making
+    them the "rear" position.
+How do your implementations differ from Python’s built-in lists?
+    -When these methods are implemented, they differ from Python's built-in lists by 
+    creating different organizing paths. With the lists, you can add or delete any item
+    in any position, and then the list has to re-shift to fill in the space. However, 
+    this creates confusion on where the items are now at in the list, and there is no clear
+    organization. With stacks, you know what items will be used and shifted, and with queues
+    you know which order the queue can be accessed.
